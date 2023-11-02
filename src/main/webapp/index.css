@@ -1,0 +1,138 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-2{
+	background-color: white;
+	color: white;
+	background-position: center;
+    background-size: cover;
+        width: 200%;
+    
+}
+
+.main{
+    width: 200%;
+    background:linear-gradient(50deg,black, green);
+    background-position: center;
+    background-size: cover;
+    height: 209vh;
+}
+.navbar{
+    width: 1200px;
+    height: 50px;
+    margin: 50px;
+}
+
+
+.menu{
+width: 600px;
+float: left;
+height: 90px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+ul li img{
+    height: 150px;
+    margin-top: 10%;
+    padding-right:200px;
+    padding: left 10px;;
+}
+ul li a{
+    text-decoration: none;
+    color: #4efc03;
+    font-family: Arial;
+    transition: 0.4s ease-in-out;
+
+}
+ul li a .btn{
+    background-color:#0318fc;
+    height: 30px;
+    width: 70px;
+}
+
+ul li a:hover{
+    color: fc0394;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+
+}
+.content p{
+    color: aqua;
+    padding-left:100px;
+    font-family: Arial;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 50px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    color: #03befc;
+}
+.content h2{
+    padding-left:  80px;
+ color: #fc0303;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background:rgb(0, 0, 255);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+.conntent.cn a{
+    text-decoration: none;
+    color:white;
+    transition: .3s ease;
+}
+.cn:hover{
+    background-color: white;
+}
+.conntent span{
+    color: #03f4fc;
+    font-size: 60px;
+
+}
+.main2{
+    width: 100%;
+    background:linear-gradient(50deg, black ,gray);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 20px;
+    margin: 30px;
+}
+

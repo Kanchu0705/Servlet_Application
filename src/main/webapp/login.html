@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    
+    <div class="img-container">
+    <img src="Login.jpg" alt="Login Form"  width="600px" height="500px">
+    </div>
+
+    <div class="form-container">
+    <form method="post" action="LoginServlet">
+        <fieldset>
+            <h1 style="padding-left: 140px;">Login Form</h1>
+        <div>
+        <h3>Email:</h3>
+         <input style="color: red;" class="input-field " type="email" name="email" placeholder="Enter your Email">
+        </div>
+
+        <div>
+            <h3>Password: </h3>
+        <input style="color: red;" class="input-field" type="password" name="confpassword" placeholder="Enter Password">
+        </div>
+
+        <div class="btn">
+  <input type="submit" value="login">  
+        </div>
+    </fieldset>
+    </form>
+    </div>
+</body>
+</html>
